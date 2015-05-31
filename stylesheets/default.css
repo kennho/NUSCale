@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+body  {
+	background-color:#EEEEEE;
+	font-family:"Open Sans", "Century Gothic";
+	font-weight:300;
+	min-width:960px;
+}
+
+header {
+	background-color:#34495E;
+	color:#FFFFFF;
+	height:180px;
+	position:relative;
+}
+
+header a {
+	color:#FFFFFF;
+}
+
+main {
+	background-color:#FFFFFF;
+	box-sizing:border-box;	
+	padding:30px;
+}
+
+footer {
+	color:#AAAAAA;
+	font-size:10pt;
+	padding:30px;
+	text-align:center;	
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+	border-radius:6px;
+	border:1px solid #CCCCCC;
+	box-sizing:border-box;
+	font-family:"Open Sans";
+	font-size:14pt;
+	font-weight:300;
+	padding:10px !important;
+	width:300px !important;
+}
+
+input[type="submit"] {
+	background-color:#67809F;
+	border:none;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+	
+h1 { font-size:18pt; }
+h2 { font-size:16pt; }
+h3 { font-size:14pt; }
+h4 { font-size:12pt; }
+
+h1, h2, h3, h4 {
+	display:inline-block;	
+	font-weight:500;
+	vertical-align:middle;
+}
+
+.wrap {
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	width:83.33%;	
+}
+
+.calendar-header {
+	background-color:#67809F;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	bottom:0px;
+	box-sizing:border-box;
+	height:120px;
+	padding:30px 30px 2px 30px;
+	position:absolute;
+	width:83.33%;
+}
+
+.calendar-header h1 {
+	line-height:60px;
+}
+
+.label {
+	display:inline-block;
+	font-size:12pt;
+}
+
+.label .icon {
+	font-weight:400;
+}
+
+.label .text {
+	font-weight:300;
+}
+
+.textbox {
+	display:inline-block;
+	position:relative;	
+}
+
+.textbox input {
+}
+
+.textbox label {
+	color:#DDDDDD;
+	cursor:auto;
+	left:0px;
+	padding:16px 10px;
+	position:absolute;	
+	top:0px;
+	vertical-align:middle;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+#home-label {
+	padding:19px 20px;
+}
+
+#profile-label {
+	cursor:pointer;
+	padding:21.5px 20px;
+}
+
+#logout-label {
+	font-size:16pt;
+	padding:5%;
+	position:absolute
+}
