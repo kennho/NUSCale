@@ -135,7 +135,9 @@ h1, h2, h3, h4 {
 }
 
 #logout-label {
+	bottom:50px;
+	cursor:pointer;
 	font-size:16pt;
-	padding:5%;
-	position:absolute
+	position:absolute;
+	right:3.2%;
 }
