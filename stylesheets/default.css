@@ -135,7 +135,7 @@ h1, h2, h3, h4 {
 }
 
 #logout-label {
-	bottom:50px;
+	bottom:30px;
 	cursor:pointer;
 	font-size:16pt;
 	position:absolute;
