@@ -7,7 +7,6 @@
         <link href="../stylesheets/reset.min.css" rel="stylesheet" type="text/css">
         <link href="../stylesheets/default.css" rel="stylesheet" type="text/css">
         <link href="../stylesheets/font.css" rel="stylesheet" type="text/css">
-        <link href="../stylesheets/bg.css" rel="stylesheet" type="text/css">
         
         <!-- javascripts -->
         <script src="../javascripts/default.js" language="javascript" type="text/javascript"></script>
@@ -20,6 +19,7 @@
     </head>
     
     <body>
+    	<header>
         	<a href="login.html">
                 <div id="logout-label" class="label right">
                     <span class="icon icon-switch"></span>
@@ -40,9 +40,30 @@
                 	<span class="icon icon-profile"></span>
                 	<span class="text">Kenneth Ho</span>
                 </div>
+                
+                <div class="calendar-header">
+                	<h1>
+                    	<select id="dropdown-month">
+                        	<option>august</option>
+                        	<option>september</option>
+                        	<option>october</option>
+                        	<option>november</option>
+                        	<option>december</option>
+                        </select>
+                    	<select id="dropdown-year">
+                        </select>
+                    </h1>
+                </div>
             </div>
+        </header>
+        
         
         <div class="wrap">
+            <main>
+            	<table id="monthly-calendar">
+                </table>
+            </main>
+            
             <footer>
             Copyright &copy; 2015. mugger &copy; All rights reserved
             </footer>

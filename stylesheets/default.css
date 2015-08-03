@@ -21,7 +21,10 @@ header a {
 
 main {
 	background-color:#FFFFFF;
+	/*background-image:url(../images/login.png);*/
+	background-size:contain;
 	box-sizing:border-box;	
+	height:600px;
 	padding:30px;
 }
 
@@ -86,6 +89,15 @@ h1, h2, h3, h4 {
 	line-height:60px;
 }
 
+.calendar-header select {
+	background-color:#67809F;
+	border:none;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-size:18pt;
+	padding:50px;
+}
+
 .label {
 	display:inline-block;
 	font-size:12pt;
@@ -102,9 +114,6 @@ h1, h2, h3, h4 {
 .textbox {
 	display:inline-block;
 	position:relative;	
-}
-
-.textbox input {
 }
 
 .textbox label {
@@ -140,4 +149,22 @@ h1, h2, h3, h4 {
 	font-size:16pt;
 	position:absolute;
 	right:3.2%;
+}
+
+#monthly-calendar {
+	/*border:red solid 1px;*/
+	height:100%;
+	table-layout:fixed;
+	width:100%; 
+}
+
+th {
+	height:10%;
+	vertical-align:middle;
+}
+
+td {
+	/*border:blue solid 1px;*/
+	text-align:center;
+	vertical-align:middle;
 }
